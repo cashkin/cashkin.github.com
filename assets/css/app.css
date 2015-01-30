@@ -73,6 +73,12 @@ body{
 *:focus {
     outline: 0;
 }
+
+a{
+	text-decoration: none;
+border-bottom: 1px dashed;
+color: #ec6054;
+}
 /*------------------------------------*\
     Pre launch
 \*------------------------------------*/
@@ -180,7 +186,7 @@ input#mce-FNAME, input#mce-EMAIL{
 	font-weight: 700;
 }
 
-div#mce-success-response {
+#mce-success-response, #mce-error-response {
 margin: 20px 0;
 }
 
