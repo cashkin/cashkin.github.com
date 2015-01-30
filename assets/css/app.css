@@ -162,7 +162,6 @@ input#mce-FNAME, input#mce-EMAIL{
 	border-radius:10px;
 	font-size: 15px;
 	margin-bottom: 15px;
-	padding: 13px;
 	color: #b6b6b6;
 	border: none;
 	padding: 13px 90px 13px 13px;
@@ -179,6 +178,10 @@ input#mce-FNAME, input#mce-EMAIL{
 	border: none;
 	cursor: pointer;
 	font-weight: 700;
+}
+
+div#mce-success-response {
+margin: 20px 0;
 }
 
 .antispam{
